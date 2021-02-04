@@ -102,12 +102,16 @@ nav的li的字号改小
 @media screen and (max-width: 767px) {
     .nav li a {
         font-size: 14px;
+        padding-left: 3px;
     }
     .top li:nth-child(1) {
         width: 100%!important;
     }
     .top li {
         width: 50%!important;
+    }
+    .publish h3 {
+        font-size: 14px;
     }
 }
 
