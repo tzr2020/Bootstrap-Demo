@@ -58,6 +58,8 @@ header {
     padding-right: 5px;
 }
 
+/* article */
+
 .top li {
     float: left;
     width: 25%;
@@ -103,4 +105,21 @@ header {
     line-height: 41px;
     font-size: 20px;
     padding: 0 10px;
+}
+
+.publish {
+    border-top: 1px solid #ccc;
+}
+
+.publish .row {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+.pic {
+    margin-top: 10px;
+}
+
+.pic img {
+    width: 100%;
 }
