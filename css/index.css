@@ -13,6 +13,14 @@ a:hover {
     text-decoration: none;
 }
 
+body {
+    background-color: #f5f5f5;
+}
+
+.container {
+    background-color: #fff;
+}
+
 /* 修改.container的最大宽度为1280px */
 
 @media screen and (min-width: 1280px) {
@@ -73,20 +81,33 @@ header {
     padding-right: 5px;
 }
 
-/* sm，xs屏幕nav的li改为浮动 */
+/* sm，xs屏幕
+nav的li改为浮动
+article顶部留空 */
 
 @media screen and (max-width: 991px) {
     .nav li {
         float: left;
         width: 20%;
     }
+    article {
+        margin-top: 10px;
+    }
 }
 
-/* xs屏幕nav的li的字号改小 */
+/* xs屏幕
+nav的li的字号改小
+第一个top的li占一行，其余占半行 */
 
 @media screen and (max-width: 767px) {
     .nav li a {
         font-size: 14px;
+    }
+    .top li:nth-child(1) {
+        width: 100%!important;
+    }
+    .top li {
+        width: 50%!important;
     }
 }
 
