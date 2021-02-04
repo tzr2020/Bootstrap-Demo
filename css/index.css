@@ -123,3 +123,25 @@ header {
 .pic img {
     width: 100%;
 }
+
+/* aside */
+
+.banner img {
+    width: 100%;
+}
+
+.hot {
+    display: block;
+    margin-top: 20px;
+    padding: 0 20px 20px;
+    border: 1px solid #ccc;
+}
+
+.hot span {
+    border-radius: 0;
+    margin-bottom: 20px;
+}
+
+.hot p {
+    font-size: 12px;
+}
