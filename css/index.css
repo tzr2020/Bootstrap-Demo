@@ -39,7 +39,7 @@ header {
     margin: 0 auto;
 }
 
-/* xs屏幕显示 */
+/* xs屏幕显示文本logo */
 
 .logo span {
     display: block;
@@ -71,6 +71,23 @@ header {
 .nav a::before {
     vertical-align: middle;
     padding-right: 5px;
+}
+
+/* sm，xs屏幕nav的li改为浮动 */
+
+@media screen and (max-width: 991px) {
+    .nav li {
+        float: left;
+        width: 20%;
+    }
+}
+
+/* xs屏幕nav的li的字号改小 */
+
+@media screen and (max-width: 767px) {
+    .nav li a {
+        font-size: 14px;
+    }
 }
 
 /* article */
