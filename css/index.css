@@ -32,7 +32,22 @@ header {
 }
 
 .logo img {
-    width: 100%;
+    display: block;
+    /* width: 100%; */
+    /* logo图片不需要缩放 */
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+/* xs屏幕显示 */
+
+.logo span {
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
 }
 
 .nav {
